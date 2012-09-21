@@ -15,6 +15,8 @@ h2 {
 h3 {
 	font-family: sans-serif;
 	color: #24ac2f;
+	text-transform: uppercase;
+	letter-spacing: .08em;
 }
 
 h4 {
@@ -27,4 +29,13 @@ h4 {
 	font-weight: Bold;
 	color: black;
 }
+
+.food_navigation ul,
+.food_navigation .more  {
+	display: none;
+}
+
+/*
+ Block Comment
+*/
 
