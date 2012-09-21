@@ -1,16 +1,29 @@
+body {
+	margin-left: 30px;
+	margin-top: 30px;
+	background-color: white;
+	color: #c3e642;
+}
+
 h2 {
 	font-weight: bold;
 	font-family: sans-serif;
+	color: #35804d;
 }
 
 h3 {
 	font-family: sans-serif;
+	color: #24ac2f;
 }
 
 h4 {
 	font-family: sans-serif;
+	color: #5aec70;
 }
+
 #title {
 	font-family: sans-serif;
 	font-weight: Bold;
+	color: white;
 }
+
