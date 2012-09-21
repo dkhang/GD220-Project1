@@ -2,7 +2,8 @@ body {
 	margin-left: 30px;
 	margin-top: 30px;
 	background-color: white;
-	color: #c3e642;
+	color: #000000;
+	font-family: helvetica;
 }
 
 h2 {
@@ -24,6 +25,6 @@ h4 {
 #title {
 	font-family: sans-serif;
 	font-weight: Bold;
-	color: white;
+	color: black;
 }
 
