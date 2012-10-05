@@ -1,8 +1,8 @@
 body {
-	margin-top: 30px;
 	background-color: white;
 	font-family: Helvetica;
 	text-align: center;
+	
 }
 
 .menu_item {
@@ -48,9 +48,10 @@ h2 {
 	font-family: sans-serif;
 	color: #ffffff;
 	text-align: left;
-	padding: 20px;
+	padding: 25px;
 	margin-top: 5%;
 	letter-spacing: .08em;
+	padding-left: 5%;
 }
 
 #section_1 {
