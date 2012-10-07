@@ -1,134 +1,21 @@
 body {
 	background-color: white;
-	font-family: Helvetica;
+	font-family: Arial;
+	font-size: 12pt;
 	text-align: center;
 }
 
-.menu_item {
-	margin-top: 3%;
-}
-
-a {
-	background-color: #009344;
-	color: #ffffff;
-	font-size: larger;
-	text-align: left;
-}
-
-h1 {
-	background-color: #006738;
-	padding: 20px;
-	margin-bottom: auto;
-	padding-left: 5%;
-}
-
-#title {
-	font-family: sans-serif;
-	font-weight: Bold;
-	color: white;
-	text-align: left;
-}
-
-h2 {
-	font-weight: lighter;
-	font-family: sans-serif;
-	color: #ffffff;
-	text-align: left;
-	padding: 25px;
-	letter-spacing: .08em;
-	padding-left: 5%;
-	font-size: 24pt;
-	margin-bottom: auto
-}
-
-#food {
-	background-color: #009344;
-	font-size: 30pt;
-}
-
-#drinks {
-	background-color: #38B449;
-	font-size: 30pt;
-}
-
-#events {
-	background-color: #8CC63E;
-	font-size: 30pt;
-}
-
-#section_1 {
-	background-color: #38B449;
-}
-
-#section_2 {
-	background-color: #8CC63E;
-}
-
-#section_3 {
-	background-color: #38B449;
-}
-
-#section_4 {
-	background-color: #8CC63E;
-}
-
-#section_5 {
-	background-color: #38B449;
-}
-
-#section_6 {
-	background-color: #8CC63E;
-}
-
-#section_7 {
-	background-color: #38B449;
-}
-
-#burger_description {
-	margin-top: 30px;
-}
-
-#section_8 {
-	background-color: #8CC63E;
-}
-
-h3 {
-	font-family: helvetica;
-	text-transform: uppercase;
-	font-weight: bolder;
-	color: #006738;
-	margin-top: 30px;
-	margin-left: 10%;
-	margin-right: 10%;	
+.page {
+	max-width: 980px;
+	margin: 0px auto 0px auto;
+	position: relative;
+	background-color: #fff;
 }
 
 h4 {
-	font-family: sans-serif;
-	color: #24ac2f;
-	text-transform: uppercase;
+	font-size: 1.5em;
 	font-weight: bold;
-	padding-bottom: 1%;
-	margin-left: 10%;
-	margin-right: 10%;
+	font-family: Arial;
+	letter-spacing: .05em;
+	text-transform: uppercase;
 }
-p {
-	 margin-left: 10%;
-	 margin-right: 10%;
-	 margin-bottom: 5px;
- }
-
-.liquor {
-	margin-left: 15%;
-	margin-right: 15%;
-}
-
-.price {
-	margin-top: 0px;
-} 
-#cater {
-	margin-top: 30px;
-}
-/*
- Block Comment
-*/
-
