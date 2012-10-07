@@ -1,8 +1,9 @@
 body {
 	background-color: white;
-	font-family: Arial;
+	font-family: Helvetica;
 	font-size: 12pt;
 	text-align: center;
+	line-height: .5em;
 }
 
 .page {
@@ -12,10 +13,32 @@ body {
 	background-color: #fff;
 }
 
+h1 { 
+  background-image: url(.../img/Home/Logo_Small_Home.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+    
 h4 {
 	font-size: 1.5em;
 	font-weight: bold;
-	font-family: Arial;
+	font-family: Helvetica;
 	letter-spacing: .05em;
 	text-transform: uppercase;
+	padding-bottom: .3em;
+}
+
+p.description { 
+	line-height: 1em;
+	
+}
+
+p.price {
+	font-style: italic;
+	line-height: .1em;
+	padding-bottom: .5em;
+}
+
+img {
+	
 }
