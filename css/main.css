@@ -3,12 +3,12 @@ body {
 	font-family: Helvetica;
 	font-size: 12pt;
 	text-align: center;
-<<<<<<< HEAD
-	line-height: .5em;
+	line-height: 1em;
 }
 
 .page {
-	max-width: 980px;
+	max-width: 500px;
+	min-width: 10px;
 	margin: 0px auto 0px auto;
 	position: relative;
 	background-color: #fff;
@@ -19,23 +19,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: top left;
 }
-    
-=======
-	
-}
 
-.menu_item {
-	line-height: 3%;
-	margin-top: 3%;
-}
-
-.side_items {
-	line-height: 3%;
-}
- .price {
-	 line-height: 30%;
-	 margin-bottom: 3%;
- }
 
 a {
 	background-color: #009344;
@@ -113,16 +97,16 @@ h3 {
 	margin-top: 30px;	
 }
 
->>>>>>> parent of 29f6661... final for the day
 h4 {
 	font-size: 1.5em;
 	font-weight: bold;
-<<<<<<< HEAD
 	font-family: Helvetica;
 	letter-spacing: .05em;
 	text-transform: uppercase;
 	padding-bottom: .3em;
 }
+
+
 
 p.description { 
 	line-height: 1em;
@@ -134,16 +118,4 @@ p.price {
 	line-height: .1em;
 	padding-bottom: .5em;
 }
-=======
-	padding-bottom: 1%;
-}
 
-
-/*
- Block Comment
-*/
->>>>>>> parent of 29f6661... final for the day
-
-img {
-	
-}
