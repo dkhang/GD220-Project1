@@ -6,11 +6,11 @@
 		<title>McAVOY'S MENU</title>
 		<link rel="stylesheet" href="themes/MCAVOY'S.min.css" />
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile.structure-1.2.0.min.css" />
-		<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
-	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+		
+        <script src="../js/vendor/modernizr-2.6.1.min.js"></script>
 	</head>
 <body>
-
+<h1 id="brand">McAvoy’s</h1>
 <!--Start of First Page-->
 <div data-role="page" id="one" data-theme="a">
 		<div data-role="header" data-position="inline">
@@ -19,11 +19,11 @@
 
 <ul data-role="listview" data-inset="true">
     <li><a href="#Menu_List">
-		<img src="images/album-bb.jpg" /><h3>FOOD </h3><p> Great food from the kitchen! </p></a></li>
+		<img src="theme/images/album-bb.jpg" /><h3>FOOD </h3><p> Great food from the kitchen! </p></a></li>
 	<li><a href="index.html">
-		<img src="images/album-bb.jpg" /><h3> DRINKS </h3><p>Check out our Drink Specials!</p></a></li>
+		<img src="themes/images/album-bb.jpg" /><h3> DRINKS </h3><p>Check out our Drink Specials!</p></a></li>
 	<li><a href="index.html">
-		<img src="images/album-bb.jpg" /><h3> EVENTS </h3><p>Check out what we can do for you!</p></a></li>
+		<img src="theme/images/album-bb.jpg" /><h3> EVENTS </h3><p>Check out what we can do for you!</p></a></li>
 </ul>
 		<div data-role="footer" data-theme="a">
 			<h4>ADDRESS</h4>
@@ -90,13 +90,12 @@
                     <p class="description"> Crunchy shrimp in an Asian chili sauce </p>
                         <p class="price"> $9.95 </p>
              </div>
-             <a href="#Menu_List" data-role="button">FOOD</a>
+         </div>
+          <a href="#Menu_List" data-role="button">FOOD</a>
              <div data-role="footer" data-theme="a">
-			<h4>McAVOY'S</h4>
-		</div>	
+			<h4>McAVOY'S</h4>	
 		</div>	
     </div> <!-- end apps -->   
- </div>	
  <!--End of Appetizer Page-->
  
 <!--Start of Oven Page-->
@@ -147,8 +146,8 @@
 		</div>	
 		</div>	
     
-    </div> <!-- end oven -->   
-</div>   
+ 
+ 
  <!--End of Oven Page-->   
 
 <!--Start of Fryer Page-->
@@ -202,7 +201,7 @@
 			<h4>McAVOY'S</h4>
 		</div>	
 		</div>
-    </div>
+
 <!--End of Fryer Page--> 
 
   
@@ -266,13 +265,13 @@
                 <h4> Chili </h4>
                     <p class="price"> Cup $3.95 Bowl $5.95 </p>
             </div>
-        <a href="#Menu_List" data-role="button">FOOD</a>
-		<div data-role="footer" data-theme="a">
-			<h4>McAVOY'S</h4>
-		</div>	
-		</div>
         </div>
-  
+        </div>
+	        <a href="#Menu_List" data-role="button">FOOD</a>
+			<div data-role="footer" data-theme="a">
+				<h4>McAVOY'S</h4>
+    </div>
+  </div>
 <!--End of Soup Page-->
         
     
@@ -364,14 +363,13 @@
 	    		<p class="side"> Asparagus </p>
                          <p class="price"> $2.95 </p>               
             </div>
-         <a href="#Menu_List" data-role="button">FOOD</a>
+        </div>
+        <a href="#Menu_List" data-role="button">FOOD</a>
 		<div data-role="footer" data-theme="a">
-			<h4>McAVOY'S</h4>
-		</div>	
-				</div>
-		    </div>
-		</div>
-</div>   
+			<h4>McAVOY'S</h4> 
+	    </div>
+	</div>
+
 <!-- End of Entrees Page -->    
     
     
@@ -445,7 +443,7 @@
     
     <div class="Cold">
     	
-    	<h3> Cold Sandwiches </h4>
+    	<h3> Cold Sandwiches </h3>
     	
     		<div class="menu_item">
             	<h4> Shrimp Salad </h4>
@@ -551,14 +549,13 @@
             </div>
             
             <div class="menu_item">
-            	<h4> Thursday </h43>
+            	<h4> Thursday </h4>
                     <p class="description"> Certified Angus Beef New York Strip </p>
                     <p class="price"> $13.95 </p> 
 </div>
 </div>
 </div>
-</div>
-</div>
+
 
              	
        
@@ -591,23 +588,17 @@
      	<h3 class="liquor"> Discount Liquor Store Open 7 Days! </h3>
      
      </div>
-</div>
 
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script src="../js/jRespond.min.js"></script>
+	    
+        <script src="../js/plugins.js"></script>
+        <script src="../js/main.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+       
 		
-			</div>
-		</div>
+		
 	</body>
 </html>
