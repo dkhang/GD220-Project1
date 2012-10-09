@@ -26,12 +26,13 @@
 		<img src="images/album-bb.jpg" /><h3> EVENTS </h3><p>Check out what we can do for you!</p></a></li>
 </ul>
 		<div data-role="footer" data-theme="a">
-			<h4>Page Footer</h4>
+			<h4>ADDRESS</h4>
+			
 		</div>
 </div>
 <!--End of First Page-->
 		
-<!--Start of Second Page-->
+<!--Start of Menu_list Page-->
 
 <div data-role="page" id="Menu_List" data-theme="a">
 		<div data-role="header" data-position="inline">
@@ -41,13 +42,13 @@
 		<ul data-role="listview">
         	<li><a href="#Appetizers">
 				APPETIZERS</a></li>
-        	<li><a href="index.html">
+        	<li><a href="#Oven">
 				FROM THE OVEN </a></li>
-        	<li><a href="index.html">
+        	<li><a href="#Fryer">
 				FROM THE FRYER </a></li>
-        	<li><a href="index.html">
+        	<li><a href="#Soup">
 	        	 SOUPS & SALADS </a></li>
-        	<li><a href="index.html"> 
+        	<li><a href="#Entree"> 
         		ENTREES </a></li>
         	<li><a href="index.html"> 
         		DESSERTS </a></li>
@@ -64,14 +65,13 @@
 		</div>	
 		</div>
 </div>
-<!--End of Second Page-->
+<!--End of Menu_list Page-->
 
-<!--Start of Third Page-->        	
+<!--Start of Appetizer Page-->        	
  <div data-role="page" id="Appetizers" data-theme="a">
 		<div data-role="header" data-position="inline">
 				<h1>APPETIZERS</h1>
 		</div>        	
-		<ul data-role="listview">
 		<div class="appetizers">
         	<div class="menu_item">
         		<h4> Irish Mussels </h4>
@@ -94,14 +94,18 @@
              <div data-role="footer" data-theme="a">
 			<h4>McAVOY'S</h4>
 		</div>	
-		
+		</div>	
     </div> <!-- end apps -->   
  </div>	
- <!--End of Third Page-->
+ <!--End of Appetizer Page-->
  
- 	    
+<!--Start of Oven Page-->
+
+<div data-role="page" id="Oven" data-theme="a">
+		<div data-role="header" data-position="inline">
+				<h1>FROM THE OVEN</h1>
+		</div> 	    
     <div class="Oven">                       
-       <h3> FROM THE OVEN </h3>
             <div class="menu_item">
                 <h4> Artichoke Spinach Dip</h4>
                      <p class="description"> Served with tortilla chips </p>
@@ -136,15 +140,23 @@
                        <p class="description"> Charbroiled seasoned chicken mixed with Cheddar and Monterey Jack cheeses served with salsa and sour cream </p>
                            <p class="price"> $9.95 </p>                   
             </div>
-    </div> <!-- end oven -->
-   
+	    </div>
+             <a href="#Menu_List" data-role="button">FOOD</a>
+             <div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>	
+		</div>	
     
-        
+    </div> <!-- end oven -->   
+</div>   
+ <!--End of Oven Page-->   
+
+<!--Start of Fryer Page-->
+		<div data-role="page" id="Fryer" data-theme="a">
+				<div data-role="header" data-position="inline">
+						<h1>FROM THE FRYER</h1>
+		</div>       
     <div class="fryer">
-     
-        
-          
-          <h3> FROM THE FRYER </h3>  
             <div class="menu_item">
                 <h4> Fried Pickles </h4>
                         <p class="price"> $6.95 </p>
@@ -184,13 +196,23 @@
                     <p class="description"> With Bleu cheese and celery </p>
                         <p class="price"> $7.95 </p>
             </div>
+	    </div>
+             <a href="#Menu_List" data-role="button">FOOD</a>
+             <div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>	
+		</div>
     </div>
-   
+<!--End of Fryer Page--> 
 
+  
+<!--Start of Soup Page-->
+		<div data-role="page" id="Soup" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>SOUPS & SALADS</h1>
+		</div>       
 <div class="soup_salad">
-        
-        
-        <h3> SOUPS & SALADS </h3>
+	 <h3> SOUPS & SALADS </h3>
         
 	        <div class="menu_item">
 	            <h4> House Salad </h4>
@@ -244,15 +266,23 @@
                 <h4> Chili </h4>
                     <p class="price"> Cup $3.95 Bowl $5.95 </p>
             </div>
+        <a href="#Menu_List" data-role="button">FOOD</a>
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>	
+		</div>
         </div>
   
+<!--End of Soup Page-->
+        
+    
+<!--Start of Entrees Page-->
 
-        
-    <div class="entrees">
-        
-        
-        <h3> ENTREES </h3>
-        
+<div data-role="page" id="Entree" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>ENTREES</h1>
+		</div>    
+		<div class="entrees">
         <div class="menu_item">
             <h4> New York Strip </h4>
                 <p class="description"> Mouthwatering! Served with choice of TWO sides </p>
@@ -294,8 +324,8 @@
                 <p class="description"> Beer-battered cod </p>
                     <p class="price"> $8.95 </p>
         </div>
-    
-    
+		</div> 
+
     <div class="sides">
     
     	<h4>McAvoy Sides</h4>
@@ -334,12 +364,19 @@
 	    		<p class="side"> Asparagus </p>
                          <p class="price"> $2.95 </p>               
             </div>
-           
-    </div>          
+         <a href="#Menu_List" data-role="button">FOOD</a>
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>	
+				</div>
+		    </div>
+		</div>
+</div>   
+<!-- End of Entrees Page -->    
+    
+    
     <div class="desserts">
-    	
-    	
-    		<h3> DESSERTS </h3>
+    	<h3> DESSERTS </h3>
     		
     		<div class="menu_item">
             	<h4> Chocolate Mini Bundt Cake </h4>
