@@ -19,15 +19,17 @@
 
 <ul data-role="listview" data-inset="true">
     <li><a href="#Menu_List">
-		<img src="theme/images/album-bb.jpg" /><h3>FOOD </h3><p> Great food from the kitchen! </p></a></li>
-	<li><a href="index.html">
-		<img src="themes/images/album-bb.jpg" /><h3> DRINKS </h3><p>Check out our Drink Specials!</p></a></li>
-	<li><a href="index.html">
-		<img src="theme/images/album-bb.jpg" /><h3> EVENTS </h3><p>Check out what we can do for you!</p></a></li>
+		<img src="themes/images/Food_Icon.png" /><h3>FOOD </h3><p> Great food from the kitchen! </p></a></li>
+	<li><a href="#Drinks">
+		<img src="themes/images/Drink_Icon.png" /><h3> DRINKS </h3><p>Check out our Drink Specials!</p></a></li>
+	<li><a href="#Events">
+		<img src="themes/images/Event_Icon.png" /><h3> EVENTS </h3><p>Check out what we can do for you!</p></a></li>
 </ul>
 		<div data-role="footer" data-theme="a">
-			<h4>ADDRESS</h4>
-			
+	<div class="icons">
+		<img src="themes/images/FB_Icon.png" height="35px" />
+		<img src="themes/images/Twit_Icon.png" height="35px" />
+	</div>
 		</div>
 </div>
 <!--End of First Page-->
@@ -50,17 +52,17 @@
 	        	 SOUPS & SALADS </a></li>
         	<li><a href="#Entree"> 
         		ENTREES </a></li>
-        	<li><a href="index.html"> 
+        	<li><a href="#Desserts"> 
         		DESSERTS </a></li>
-        	<li><a href="index.html"> 
+        	<li><a href="#Burgers"> 
         		BURGERS & SANDWICHES </a></li>
-        	<li><a href="index.html"> 
+        	<li><a href="#Specials"> 
         		SPECIALS </a></li>
 		</ul>
 		
-		<a href="#one" data-role="button">Home</a>
+		<a href="#one" data-role="button" class="back">Home</a>
 		
-		<div data-role="footer" data-theme="a">
+		<div data-role="footer" data-theme="a" class="footer">
 			<h4>McAVOY'S</h4>
 		</div>	
 		</div>
@@ -91,7 +93,7 @@
                         <p class="price"> $9.95 </p>
              </div>
          </div>
-          <a href="#Menu_List" data-role="button">FOOD</a>
+          <a href="#Menu_List" data-role="button"  class="back" >FOOD</a>
              <div data-role="footer" data-theme="a">
 			<h4>McAVOY'S</h4>	
 		</div>	
@@ -140,7 +142,7 @@
                            <p class="price"> $9.95 </p>                   
             </div>
 	    </div>
-             <a href="#Menu_List" data-role="button">FOOD</a>
+             <a href="#Menu_List" data-role="button" class="back">FOOD</a>
              <div data-role="footer" data-theme="a">
 			<h4>McAVOY'S</h4>
 		</div>	
@@ -196,7 +198,7 @@
                         <p class="price"> $7.95 </p>
             </div>
 	    </div>
-             <a href="#Menu_List" data-role="button">FOOD</a>
+             <a href="#Menu_List" data-role="button" class="back">FOOD</a>
              <div data-role="footer" data-theme="a">
 			<h4>McAVOY'S</h4>
 		</div>	
@@ -211,7 +213,7 @@
 				<h1>SOUPS & SALADS</h1>
 		</div>       
 <div class="soup_salad">
-	 <h3> SOUPS & SALADS </h3>
+
         
 	        <div class="menu_item">
 	            <h4> House Salad </h4>
@@ -267,7 +269,7 @@
             </div>
         </div>
         </div>
-	        <a href="#Menu_List" data-role="button">FOOD</a>
+	        <a href="#Menu_List" data-role="button" class="back">FOOD</a>
 			<div data-role="footer" data-theme="a">
 				<h4>McAVOY'S</h4>
     </div>
@@ -280,7 +282,7 @@
 <div data-role="page" id="Entree" data-theme="a">
 			<div data-role="header" data-position="inline">
 				<h1>ENTREES</h1>
-		</div>    
+			</div>    
 		<div class="entrees">
         <div class="menu_item">
             <h4> New York Strip </h4>
@@ -364,7 +366,7 @@
                          <p class="price"> $2.95 </p>               
             </div>
         </div>
-        <a href="#Menu_List" data-role="button">FOOD</a>
+        <a href="#Menu_List" data-role="button" class="back">FOOD</a>
 		<div data-role="footer" data-theme="a">
 			<h4>McAVOY'S</h4> 
 	    </div>
@@ -372,10 +374,14 @@
 
 <!-- End of Entrees Page -->    
     
-    
+<!--Start of Desserts Page-->
+
+<div data-role="page" id="Desserts" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>DESSERTS</h1>
+			</div>    
     <div class="desserts">
-    	<h3> DESSERTS </h3>
-    		
+    
     		<div class="menu_item">
             	<h4> Chocolate Mini Bundt Cake </h4>
                     	<p class="price"> $4.95 </p>
@@ -402,13 +408,21 @@
                     <p class="description"> Add a scoop to your dessert </p>
                     	<p class="price"> $1.00 </p>
             </div>
-        
-    </div>	
-      
+    </div>
+     <a href="#Menu_List" data-role="button" class="back">FOOD</a>
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>	
+</div>
+</div>     
+<!-- End of Desserts Page -->
+
+<!-- Start of Burgers Page -->
+
+<div data-role="page" id="Burgers" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>BURGERS AND SANDWICHES</h1>
+			</div>    
     <div class="Burgers">
-    	
-    	
-    	
     	<p> All our burgers are one-half pound Certified Angus Beef patties cooked the way you like it! </p>
     	
     	<h3 id="section_title"> BURGERS & SANDWICHES </h3>
@@ -518,12 +532,21 @@
     	<p class="chips"> Add Fries for just $1.95 </p>
 
     </div>
-  
-    <div class="Specials">
-    	
-    	
-    		
-    		<div class="menu_item">
+    </div>
+    <a href="#Menu_List" data-role="button" class="back">FOOD</a>
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>	
+</div>
+</div>
+<!-- End Burgers age -->
+
+<!-- Start Specials Page -->
+<div data-role="page" id="Specials" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>SPECIALS</h1>
+			</div>  
+    <div class="specials">
+    	<div class="menu_item">
             	<h4> Monday </h4>
                     <p class="description"> Ribs </p>
                     	<p class="price"> Half Rack $9.95 </p>
@@ -554,12 +577,19 @@
                     <p class="price"> $13.95 </p> 
 </div>
 </div>
+<a href="#Menu_List" data-role="button" class="back">FOOD</a>
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>	
 </div>
-
+</div>
+<!-- End Specials Page -->
 
              	
-       
-       		<h2>DRINKS</h2> 
+<div data-role="page" id="Drinks" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>DRINKS</h1>
+			</div>       
+          <div class="drinks">
             <h3> Drink Specials </h3>
             
             	<p class="description"> $1.50 Domestic Beers and Rail Drinks </p>
@@ -570,13 +600,22 @@
             
              <h4>Friday Crab Cake Night</h4>
              <p id="time">Free Buffet 6 p.m.!!! (FRIDAY Only)</p>
-            
-       
+          </div>
+		<a href="#one" data-role="button" class="back">Home</a>
+		
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>            
+</div>       
 
 
+<div data-role="page" id="Events" data-theme="a">
+			<div data-role="header" data-position="inline">
+				<h1>EVENTS</h1>
+			</div>
 <div class="cater">
      	
-     	<h2>EVENTS</h2>
+     	
      	<h4 id="cater"> We can CATER your Family Gathering, Company Party or Holiday Event in our NEW Private Dining Event </h4>
 
      	<h4> We can CATER your Family Gathering, Company Party or Holiday Event in our NEW Private Dining Event </h4>
@@ -588,8 +627,12 @@
      	<h3 class="liquor"> Discount Liquor Store Open 7 Days! </h3>
      
      </div>
-
-
+<a href="#one" data-role="button" class="back">Home</a>
+		
+		<div data-role="footer" data-theme="a">
+			<h4>McAVOY'S</h4>
+		</div>  
+</div>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
         <script src="../js/jRespond.min.js"></script>
